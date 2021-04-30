@@ -6,19 +6,28 @@
     <title>JavaScript - Intermediário</title>
     <style>
 
-        .paragrafo {
-            color: red;
+      
+    </style>
+
+    <script>
+
+        function changeH1(input) {
+
+            
+            let h1 = document.getElementsByTagName("h1")[0];
+            h1.innerText = input.value;
         }
 
-    </style>
+
+
+    </script>
 </head>
 <body>
     
-<h1>Título</h1>
-<p class="paragrafo" id="p1">Parágrafo1</p>
-<p class="paragrafo">Parágrafo2</p>
-<p>Parágrafo3</p>
+<h1 onclick="console.log('H1 foi clicado!')">Clique em mim</h1>
 
+
+<input  type="text" onchange ="changeH1(this)" >
 
 <script src="script.js"></script>
 </body>
