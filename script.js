@@ -1,0 +1,1 @@
+document.body.innerHTML = "<h1> Esse título foi criado com JavaScript </h1>" + document.body.innerHTML
